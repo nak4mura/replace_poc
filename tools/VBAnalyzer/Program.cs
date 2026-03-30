@@ -71,10 +71,15 @@ var root = tree.GetRoot();
 var methodExtractor = new MethodSignatureExtractor();
 methodExtractor.Visit(root);
 
+// Extract DataProvider calls
+var dataProviderExtractor = new DataProviderCallExtractor();
+dataProviderExtractor.Visit(root);
+
 var result = new AnalysisResult
 {
     FilePath = Path.GetFullPath(inputPath),
     Methods = methodExtractor.Methods.ToList(),
+    DataProviderCalls = dataProviderExtractor.Calls.ToList(),
     ParseErrors = errors.Select(d => d.ToString()).ToList(),
     AnalyzedAt = DateTime.UtcNow
 };
@@ -86,6 +91,7 @@ File.WriteAllText(outputPath, json);
 
 Console.WriteLine($"Analysis complete: {outputPath}");
 Console.WriteLine($"  Methods: {result.Methods.Count}");
+Console.WriteLine($"  DataProvider calls: {result.DataProviderCalls.Count}");
 Console.WriteLine($"  Parse errors: {errors.Count}");
 
 return 0;
