@@ -1,6 +1,7 @@
 using System.Text.Json;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.VisualBasic;
+using VBAnalyzer.Analyzers;
 using VBAnalyzer.Models;
 
 var jsonOptions = new JsonSerializerOptions
@@ -65,9 +66,15 @@ foreach (var diag in errors)
     Console.Error.WriteLine($"Parse error: {diag}");
 }
 
+// Extract method signatures
+var root = tree.GetRoot();
+var methodExtractor = new MethodSignatureExtractor();
+methodExtractor.Visit(root);
+
 var result = new AnalysisResult
 {
     FilePath = Path.GetFullPath(inputPath),
+    Methods = methodExtractor.Methods.ToList(),
     ParseErrors = errors.Select(d => d.ToString()).ToList(),
     AnalyzedAt = DateTime.UtcNow
 };
@@ -78,6 +85,7 @@ var json = JsonSerializer.Serialize(result, jsonOptions);
 File.WriteAllText(outputPath, json);
 
 Console.WriteLine($"Analysis complete: {outputPath}");
+Console.WriteLine($"  Methods: {result.Methods.Count}");
 Console.WriteLine($"  Parse errors: {errors.Count}");
 
 return 0;
