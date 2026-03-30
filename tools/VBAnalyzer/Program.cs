@@ -75,11 +75,16 @@ methodExtractor.Visit(root);
 var dataProviderExtractor = new DataProviderCallExtractor();
 dataProviderExtractor.Visit(root);
 
+// Extract entity structures
+var entityExtractor = new EntityExtractor();
+entityExtractor.Visit(root);
+
 var result = new AnalysisResult
 {
     FilePath = Path.GetFullPath(inputPath),
     Methods = methodExtractor.Methods.ToList(),
     DataProviderCalls = dataProviderExtractor.Calls.ToList(),
+    Entities = entityExtractor.Entities.ToList(),
     ParseErrors = errors.Select(d => d.ToString()).ToList(),
     AnalyzedAt = DateTime.UtcNow
 };
@@ -92,6 +97,7 @@ File.WriteAllText(outputPath, json);
 Console.WriteLine($"Analysis complete: {outputPath}");
 Console.WriteLine($"  Methods: {result.Methods.Count}");
 Console.WriteLine($"  DataProvider calls: {result.DataProviderCalls.Count}");
+Console.WriteLine($"  Entities: {result.Entities.Count}");
 Console.WriteLine($"  Parse errors: {errors.Count}");
 
 return 0;
