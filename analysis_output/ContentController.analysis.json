@@ -1,0 +1,294 @@
+{
+  "filePath": "C:\\Users\\k4mrj\\git_projets\\replace_poc\\replace_target\\Library\\Entities\\Content\\ContentController.vb",
+  "namespace": null,
+  "imports": [],
+  "methods": [
+    {
+      "name": "AddContentItem",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 55
+    },
+    {
+      "name": "DeleteContentItem",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 64
+    },
+    {
+      "name": "GetContentItem",
+      "returnType": "ContentItem",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItemId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 72
+    },
+    {
+      "name": "GetContentItemsByTerm",
+      "returnType": "IQueryable(Of ContentItem)",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 79
+    },
+    {
+      "name": "GetUnIndexedContentItems",
+      "returnType": "IQueryable(Of ContentItem)",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 86
+    },
+    {
+      "name": "UpdateContentItem",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 90
+    },
+    {
+      "name": "AddMetaData",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 2
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 100
+    },
+    {
+      "name": "DeleteMetaData",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 2
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 109
+    },
+    {
+      "name": "GetMetaData",
+      "returnType": "NameValueCollection",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItemId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentController",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 118
+    }
+  ],
+  "dataProviderCalls": [],
+  "entities": [
+    {
+      "className": "ContentController",
+      "namespace": "DotNetNuke.Entities.Content",
+      "baseClass": null,
+      "implementedInterfaces": [
+        "IContentController"
+      ],
+      "isSerializable": false,
+      "isMustInherit": false,
+      "fields": [
+        {
+          "name": "_DataService",
+          "type": "IDataService",
+          "accessModifier": "Private",
+          "defaultValue": null
+        }
+      ],
+      "properties": [],
+      "hasFillMethod": false,
+      "fillMethodName": null,
+      "fillFieldMappings": []
+    }
+  ],
+  "parseErrors": [],
+  "analyzedAt": "2026-03-30T12:22:40.9218889Z"
+}

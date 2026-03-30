@@ -1,0 +1,223 @@
+{
+  "filePath": "C:\\Users\\k4mrj\\git_projets\\replace_poc\\replace_target\\Library\\Entities\\Content\\ContentItem.vb",
+  "namespace": null,
+  "imports": [],
+  "methods": [
+    {
+      "name": "FillInternal",
+      "returnType": null,
+      "accessModifier": "Protected",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": true,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "dr",
+          "type": "IDataReader",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentItem",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 137
+    },
+    {
+      "name": "Fill",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": true,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "dr",
+          "type": "System.Data.IDataReader",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "ContentItem",
+      "containingNamespace": "DotNetNuke.Entities.Content",
+      "lineNumber": 153
+    }
+  ],
+  "dataProviderCalls": [],
+  "entities": [
+    {
+      "className": "ContentItem",
+      "namespace": "DotNetNuke.Entities.Content",
+      "baseClass": "DotNetNuke.Entities.BaseEntityInfo",
+      "implementedInterfaces": [
+        "IHydratable"
+      ],
+      "isSerializable": false,
+      "isMustInherit": false,
+      "fields": [
+        {
+          "name": "_ContentItemId",
+          "type": "Integer",
+          "accessModifier": "Private",
+          "defaultValue": "Null.NullInteger"
+        },
+        {
+          "name": "_Content",
+          "type": "String",
+          "accessModifier": "Private",
+          "defaultValue": null
+        },
+        {
+          "name": "_ContentTypeId",
+          "type": "Integer",
+          "accessModifier": "Private",
+          "defaultValue": "Null.NullInteger"
+        },
+        {
+          "name": "_TabID",
+          "type": "Integer",
+          "accessModifier": "Private",
+          "defaultValue": "Null.NullInteger"
+        },
+        {
+          "name": "_ModuleID",
+          "type": "Integer",
+          "accessModifier": "Private",
+          "defaultValue": "Null.NullInteger"
+        },
+        {
+          "name": "_ContentKey",
+          "type": "String",
+          "accessModifier": "Private",
+          "defaultValue": null
+        },
+        {
+          "name": "_Indexed",
+          "type": "Boolean",
+          "accessModifier": "Private",
+          "defaultValue": null
+        },
+        {
+          "name": "_MetaData",
+          "type": "NameValueCollection",
+          "accessModifier": "Private",
+          "defaultValue": null
+        },
+        {
+          "name": "_Terms",
+          "type": "List(Of Term)",
+          "accessModifier": "Private",
+          "defaultValue": null
+        }
+      ],
+      "properties": [
+        {
+          "name": "ContentItemId",
+          "type": "Integer",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "Content",
+          "type": "String",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "ContentKey",
+          "type": "String",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "ContentTypeId",
+          "type": "Integer",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "Indexed",
+          "type": "Boolean",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "MetaData",
+          "type": "NameValueCollection",
+          "accessModifier": "Public",
+          "isReadOnly": true,
+          "hasGetter": true,
+          "hasSetter": false
+        },
+        {
+          "name": "ModuleID",
+          "type": "Integer",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "TabID",
+          "type": "Integer",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        },
+        {
+          "name": "Terms",
+          "type": "List(Of Term)",
+          "accessModifier": "Public",
+          "isReadOnly": true,
+          "hasGetter": true,
+          "hasSetter": false
+        },
+        {
+          "name": "KeyID",
+          "type": "Integer",
+          "accessModifier": "Public",
+          "isReadOnly": false,
+          "hasGetter": true,
+          "hasSetter": true
+        }
+      ],
+      "hasFillMethod": true,
+      "fillMethodName": "Fill",
+      "fillFieldMappings": [
+        "ContentItemId \u003C- ContentItemID (Integer)",
+        "Content \u003C- Content (String)",
+        "ContentTypeId \u003C- ContentTypeID (Integer)",
+        "TabID \u003C- TabID (Integer)",
+        "ModuleID \u003C- ModuleID (Integer)",
+        "ContentKey \u003C- ContentKey (String)",
+        "Indexed \u003C- Indexed (Boolean)"
+      ]
+    }
+  ],
+  "parseErrors": [],
+  "analyzedAt": "2026-03-30T12:22:44.4177038Z"
+}

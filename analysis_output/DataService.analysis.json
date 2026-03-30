@@ -1,0 +1,1373 @@
+{
+  "filePath": "C:\\Users\\k4mrj\\git_projets\\replace_poc\\replace_target\\Library\\Entities\\Content\\Data\\DataService.vb",
+  "namespace": null,
+  "imports": [],
+  "methods": [
+    {
+      "name": "AddContentItem",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "createdByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 37
+    },
+    {
+      "name": "DeleteContentItem",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 48
+    },
+    {
+      "name": "GetContentItem",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItemId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 52
+    },
+    {
+      "name": "GetContentItemsByTerm",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 56
+    },
+    {
+      "name": "GetUnIndexedContentItems",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 60
+    },
+    {
+      "name": "UpdateContentItem",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "createdByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 64
+    },
+    {
+      "name": "AddMetaData",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 2
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 80
+    },
+    {
+      "name": "DeleteMetaData",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "name",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 2
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 83
+    },
+    {
+      "name": "GetMetaData",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItemId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 86
+    },
+    {
+      "name": "AddContentType",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentType",
+          "type": "ContentType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 94
+    },
+    {
+      "name": "DeleteContentType",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentType",
+          "type": "ContentType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 98
+    },
+    {
+      "name": "GetContentTypes",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 102
+    },
+    {
+      "name": "UpdateContentType",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentType",
+          "type": "ContentType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 106
+    },
+    {
+      "name": "AddScopeType",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "scopeType",
+          "type": "ScopeType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 114
+    },
+    {
+      "name": "DeleteScopeType",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "scopeType",
+          "type": "ScopeType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 118
+    },
+    {
+      "name": "GetScopeTypes",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 122
+    },
+    {
+      "name": "UpdateScopeType",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "scopeType",
+          "type": "ScopeType",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 126
+    },
+    {
+      "name": "AddHeirarchicalTerm",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "createdByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 134
+    },
+    {
+      "name": "AddSimpleTerm",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "createdByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 138
+    },
+    {
+      "name": "AddTermToContent",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 142
+    },
+    {
+      "name": "DeleteSimpleTerm",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 146
+    },
+    {
+      "name": "DeleteHeirarchicalTerm",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 150
+    },
+    {
+      "name": "GetTerm",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "termId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 154
+    },
+    {
+      "name": "GetTermsByContent",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "contentItemId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 158
+    },
+    {
+      "name": "GetTermsByVocabulary",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "vocabularyId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 162
+    },
+    {
+      "name": "RemoveTermsFromContent",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "contentItem",
+          "type": "ContentItem",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 166
+    },
+    {
+      "name": "UpdateHeirarchicalTerm",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "lastModifiedByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 170
+    },
+    {
+      "name": "UpdateSimpleTerm",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "term",
+          "type": "Term",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "lastModifiedByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 174
+    },
+    {
+      "name": "AddVocabulary",
+      "returnType": "Integer",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [
+        {
+          "name": "vocabulary",
+          "type": "Vocabulary",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "createdByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 182
+    },
+    {
+      "name": "DeleteVocabulary",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "vocabulary",
+          "type": "Vocabulary",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 186
+    },
+    {
+      "name": "GetVocabularies",
+      "returnType": "IDataReader",
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Function",
+      "parameters": [],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 190
+    },
+    {
+      "name": "UpdateVocabulary",
+      "returnType": null,
+      "accessModifier": "Public",
+      "isShared": false,
+      "isMustOverride": false,
+      "isOverridable": false,
+      "isOverrides": false,
+      "isOverloads": false,
+      "methodKind": "Sub",
+      "parameters": [
+        {
+          "name": "vocabulary",
+          "type": "Vocabulary",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 0
+        },
+        {
+          "name": "lastModifiedByUserId",
+          "type": "Integer",
+          "isByRef": false,
+          "isParamArray": false,
+          "isOptional": false,
+          "defaultValue": null,
+          "ordinal": 1
+        }
+      ],
+      "genericTypeParameters": [],
+      "containingClass": "DataService",
+      "containingNamespace": "DotNetNuke.Entities.Content.Data",
+      "lineNumber": 194
+    }
+  ],
+  "dataProviderCalls": [
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddContentItem",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddContentItem\u0022, _                                                         contentItem.Content, _                                                         contentItem.ContentTypeId, _                                                         contentItem.TabID, _                                                         contentItem.ModuleID, _                                                         contentItem.ContentKey, _                                                         contentItem.Indexed, _                                                         createdByUserId)",
+      "arguments": [
+        "contentItem.Content",
+        "contentItem.ContentTypeId",
+        "contentItem.TabID",
+        "contentItem.ModuleID",
+        "contentItem.ContentKey",
+        "contentItem.Indexed",
+        "createdByUserId"
+      ],
+      "containingMethod": "AddContentItem",
+      "containingClass": "DataService",
+      "lineNumber": 38
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteContentItem",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteContentItem\u0022, contentItem.ContentItemId)",
+      "arguments": [
+        "contentItem.ContentItemId"
+      ],
+      "containingMethod": "DeleteContentItem",
+      "containingClass": "DataService",
+      "lineNumber": 49
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetContentItem",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetContentItem\u0022, contentItemId)",
+      "arguments": [
+        "contentItemId"
+      ],
+      "containingMethod": "GetContentItem",
+      "containingClass": "DataService",
+      "lineNumber": 53
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetContentItemsByTerm",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetContentItemsByTerm\u0022, term)",
+      "arguments": [
+        "term"
+      ],
+      "containingMethod": "GetContentItemsByTerm",
+      "containingClass": "DataService",
+      "lineNumber": 57
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetUnIndexedContentItems",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetUnIndexedContentItems\u0022)",
+      "arguments": [],
+      "containingMethod": "GetUnIndexedContentItems",
+      "containingClass": "DataService",
+      "lineNumber": 61
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateContentItem",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateContentItem\u0022, _                                         contentItem.ContentItemId, _                                         contentItem.Content, _                                         contentItem.ContentTypeId, _                                         contentItem.TabID, _                                         contentItem.ModuleID, _                                         contentItem.ContentKey, _                                         contentItem.Indexed, _                                         createdByUserId)",
+      "arguments": [
+        "contentItem.ContentItemId",
+        "contentItem.Content",
+        "contentItem.ContentTypeId",
+        "contentItem.TabID",
+        "contentItem.ModuleID",
+        "contentItem.ContentKey",
+        "contentItem.Indexed",
+        "createdByUserId"
+      ],
+      "containingMethod": "UpdateContentItem",
+      "containingClass": "DataService",
+      "lineNumber": 65
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "AddMetaData",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022AddMetaData\u0022, contentItem.ContentItemId, name, value)",
+      "arguments": [
+        "contentItem.ContentItemId",
+        "name",
+        "value"
+      ],
+      "containingMethod": "AddMetaData",
+      "containingClass": "DataService",
+      "lineNumber": 81
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteMetaData",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteMetaData\u0022, contentItem.ContentItemId, name, value)",
+      "arguments": [
+        "contentItem.ContentItemId",
+        "name",
+        "value"
+      ],
+      "containingMethod": "DeleteMetaData",
+      "containingClass": "DataService",
+      "lineNumber": 84
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetMetaData",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetMetaData\u0022, contentItemId)",
+      "arguments": [
+        "contentItemId"
+      ],
+      "containingMethod": "GetMetaData",
+      "containingClass": "DataService",
+      "lineNumber": 87
+    },
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddContentType",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddContentType\u0022, contentType.ContentType)",
+      "arguments": [
+        "contentType.ContentType"
+      ],
+      "containingMethod": "AddContentType",
+      "containingClass": "DataService",
+      "lineNumber": 95
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteContentType",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteContentType\u0022, contentType.ContentTypeId)",
+      "arguments": [
+        "contentType.ContentTypeId"
+      ],
+      "containingMethod": "DeleteContentType",
+      "containingClass": "DataService",
+      "lineNumber": 99
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetContentTypes",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetContentTypes\u0022)",
+      "arguments": [],
+      "containingMethod": "GetContentTypes",
+      "containingClass": "DataService",
+      "lineNumber": 103
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateContentType",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateContentType\u0022, contentType.ContentTypeId, contentType.ContentType)",
+      "arguments": [
+        "contentType.ContentTypeId",
+        "contentType.ContentType"
+      ],
+      "containingMethod": "UpdateContentType",
+      "containingClass": "DataService",
+      "lineNumber": 107
+    },
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddScopeType",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddScopeType\u0022, scopeType.ScopeType)",
+      "arguments": [
+        "scopeType.ScopeType"
+      ],
+      "containingMethod": "AddScopeType",
+      "containingClass": "DataService",
+      "lineNumber": 115
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteScopeType",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteScopeType\u0022, scopeType.ScopeTypeId)",
+      "arguments": [
+        "scopeType.ScopeTypeId"
+      ],
+      "containingMethod": "DeleteScopeType",
+      "containingClass": "DataService",
+      "lineNumber": 119
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetScopeTypes",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetScopeTypes\u0022)",
+      "arguments": [],
+      "containingMethod": "GetScopeTypes",
+      "containingClass": "DataService",
+      "lineNumber": 123
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateScopeType",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateScopeType\u0022, scopeType.ScopeTypeId, scopeType.ScopeType)",
+      "arguments": [
+        "scopeType.ScopeTypeId",
+        "scopeType.ScopeType"
+      ],
+      "containingMethod": "UpdateScopeType",
+      "containingClass": "DataService",
+      "lineNumber": 127
+    },
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddHeirarchicalTerm",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddHeirarchicalTerm\u0022, term.VocabularyId, term.ParentTermId, term.Name, term.Description, term.Weight, createdByUserId)",
+      "arguments": [
+        "term.VocabularyId",
+        "term.ParentTermId",
+        "term.Name",
+        "term.Description",
+        "term.Weight",
+        "createdByUserId"
+      ],
+      "containingMethod": "AddHeirarchicalTerm",
+      "containingClass": "DataService",
+      "lineNumber": 135
+    },
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddSimpleTerm",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddSimpleTerm\u0022, term.VocabularyId, term.Name, term.Description, term.Weight, createdByUserId)",
+      "arguments": [
+        "term.VocabularyId",
+        "term.Name",
+        "term.Description",
+        "term.Weight",
+        "createdByUserId"
+      ],
+      "containingMethod": "AddSimpleTerm",
+      "containingClass": "DataService",
+      "lineNumber": 139
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "AddTermToContent",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022AddTermToContent\u0022, term.TermId, contentItem.ContentItemId)",
+      "arguments": [
+        "term.TermId",
+        "contentItem.ContentItemId"
+      ],
+      "containingMethod": "AddTermToContent",
+      "containingClass": "DataService",
+      "lineNumber": 143
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteSimpleTerm",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteSimpleTerm\u0022, term.TermId)",
+      "arguments": [
+        "term.TermId"
+      ],
+      "containingMethod": "DeleteSimpleTerm",
+      "containingClass": "DataService",
+      "lineNumber": 147
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteHeirarchicalTerm",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteHeirarchicalTerm\u0022, term.TermId)",
+      "arguments": [
+        "term.TermId"
+      ],
+      "containingMethod": "DeleteHeirarchicalTerm",
+      "containingClass": "DataService",
+      "lineNumber": 151
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetTerm",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetTerm\u0022, termId)",
+      "arguments": [
+        "termId"
+      ],
+      "containingMethod": "GetTerm",
+      "containingClass": "DataService",
+      "lineNumber": 155
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetTermsByContent",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetTermsByContent\u0022, contentItemId)",
+      "arguments": [
+        "contentItemId"
+      ],
+      "containingMethod": "GetTermsByContent",
+      "containingClass": "DataService",
+      "lineNumber": 159
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetTermsByVocabulary",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetTermsByVocabulary\u0022, vocabularyId)",
+      "arguments": [
+        "vocabularyId"
+      ],
+      "containingMethod": "GetTermsByVocabulary",
+      "containingClass": "DataService",
+      "lineNumber": 163
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "RemoveTermsFromContent",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022RemoveTermsFromContent\u0022, contentItem.ContentItemId)",
+      "arguments": [
+        "contentItem.ContentItemId"
+      ],
+      "containingMethod": "RemoveTermsFromContent",
+      "containingClass": "DataService",
+      "lineNumber": 167
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateHeirarchicalTerm",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateHeirarchicalTerm\u0022, term.TermId, term.VocabularyId, term.ParentTermId, term.Name, term.Description, term.Weight, lastModifiedByUserId)",
+      "arguments": [
+        "term.TermId",
+        "term.VocabularyId",
+        "term.ParentTermId",
+        "term.Name",
+        "term.Description",
+        "term.Weight",
+        "lastModifiedByUserId"
+      ],
+      "containingMethod": "UpdateHeirarchicalTerm",
+      "containingClass": "DataService",
+      "lineNumber": 171
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateSimpleTerm",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateSimpleTerm\u0022, term.TermId, term.VocabularyId, term.Name, term.Description, term.Weight, lastModifiedByUserId)",
+      "arguments": [
+        "term.TermId",
+        "term.VocabularyId",
+        "term.Name",
+        "term.Description",
+        "term.Weight",
+        "lastModifiedByUserId"
+      ],
+      "containingMethod": "UpdateSimpleTerm",
+      "containingClass": "DataService",
+      "lineNumber": 175
+    },
+    {
+      "methodName": "ExecuteScalar",
+      "genericTypeArgument": "Integer",
+      "procedureName": "AddVocabulary",
+      "invocationPattern": "provider.ExecuteScalar(Of Integer)(\u0022AddVocabulary\u0022, vocabulary.Type, vocabulary.Name, vocabulary.Description, vocabulary.Weight, provider.GetNull(vocabulary.ScopeId), vocabulary.ScopeTypeId, createdByUserId)",
+      "arguments": [
+        "vocabulary.Type",
+        "vocabulary.Name",
+        "vocabulary.Description",
+        "vocabulary.Weight",
+        "provider.GetNull(vocabulary.ScopeId)",
+        "vocabulary.ScopeTypeId",
+        "createdByUserId"
+      ],
+      "containingMethod": "AddVocabulary",
+      "containingClass": "DataService",
+      "lineNumber": 183
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "DeleteVocabulary",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022DeleteVocabulary\u0022, vocabulary.VocabularyId)",
+      "arguments": [
+        "vocabulary.VocabularyId"
+      ],
+      "containingMethod": "DeleteVocabulary",
+      "containingClass": "DataService",
+      "lineNumber": 187
+    },
+    {
+      "methodName": "ExecuteReader",
+      "genericTypeArgument": null,
+      "procedureName": "GetVocabularies",
+      "invocationPattern": "provider.ExecuteReader(\u0022GetVocabularies\u0022)",
+      "arguments": [],
+      "containingMethod": "GetVocabularies",
+      "containingClass": "DataService",
+      "lineNumber": 191
+    },
+    {
+      "methodName": "ExecuteNonQuery",
+      "genericTypeArgument": null,
+      "procedureName": "UpdateVocabulary",
+      "invocationPattern": "provider.ExecuteNonQuery(\u0022UpdateVocabulary\u0022, vocabulary.VocabularyId, vocabulary.Type, vocabulary.Name, vocabulary.Description, vocabulary.Weight, vocabulary.ScopeId, vocabulary.ScopeTypeId, lastModifiedByUserId)",
+      "arguments": [
+        "vocabulary.VocabularyId",
+        "vocabulary.Type",
+        "vocabulary.Name",
+        "vocabulary.Description",
+        "vocabulary.Weight",
+        "vocabulary.ScopeId",
+        "vocabulary.ScopeTypeId",
+        "lastModifiedByUserId"
+      ],
+      "containingMethod": "UpdateVocabulary",
+      "containingClass": "DataService",
+      "lineNumber": 195
+    }
+  ],
+  "entities": [
+    {
+      "className": "DataService",
+      "namespace": "DotNetNuke.Entities.Content.Data",
+      "baseClass": null,
+      "implementedInterfaces": [
+        "IDataService"
+      ],
+      "isSerializable": false,
+      "isMustInherit": false,
+      "fields": [
+        {
+          "name": "provider",
+          "type": "DataProvider",
+          "accessModifier": "Private",
+          "defaultValue": "DataProvider.Instance()"
+        }
+      ],
+      "properties": [],
+      "hasFillMethod": false,
+      "fillMethodName": null,
+      "fillFieldMappings": []
+    }
+  ],
+  "parseErrors": [],
+  "analyzedAt": "2026-03-30T12:22:37.3087294Z"
+}
