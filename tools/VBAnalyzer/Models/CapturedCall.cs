@@ -7,4 +7,5 @@ public class CapturedCall
     public string ProcedureName { get; set; } = string.Empty;
     public List<CapturedParameter> Parameters { get; set; } = new();
     public object? ReturnValue { get; set; }
+    public List<CapturedResultSet> ResultSets { get; set; } = new();
 }
