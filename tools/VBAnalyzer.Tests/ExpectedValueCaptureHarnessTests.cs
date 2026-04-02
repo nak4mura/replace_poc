@@ -5,6 +5,7 @@ using Xunit;
 
 namespace VBAnalyzer.Tests;
 
+[Collection("ComponentFactory")]
 public class ExpectedValueCaptureHarnessTests : IDisposable
 {
     public ExpectedValueCaptureHarnessTests()
