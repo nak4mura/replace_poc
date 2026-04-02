@@ -10,6 +10,7 @@ namespace VBAnalyzer.Tests;
 /// ComponentFactory経由でのCapturingDataProvider注入と、
 /// DNN風コード呼び出しパターンの統合テスト。
 /// </summary>
+[Collection("ComponentFactory")]
 public class IntegrationTests : IDisposable
 {
     public IntegrationTests()
