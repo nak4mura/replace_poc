@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git branch*)",
+      "Bash(gh issue:*)",
+      "Bash(gh pr:*)",
+      "Bash(ls*)",
+      "Bash(cat*)",
+      "Bash(head*)",
+      "Bash(tail*)",
+      "Bash(pwd*)",
+      "Bash(echo*)",
+      "Bash(which*)",
+      "Bash(wc*)",
+      "Bash(find*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/scripts/hook-check-path.js",
+            "statusMessage": "ファイルパスを確認中..."
+          }
+        ]
+      }
+    ]
+  }
+}
