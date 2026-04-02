@@ -1,0 +1,2 @@
+# Connection string is in web.config - do not commit
+Website/web.config
