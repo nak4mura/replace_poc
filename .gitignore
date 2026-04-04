@@ -5,7 +5,8 @@
 *.userosscache
 *.sln.docstates
 
-# Build intermediates
+# Build outputs and intermediates
+**/bin/
 **/obj/
 
 # Claude Code local settings
