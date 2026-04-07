@@ -1,0 +1,1142 @@
+[
+  {
+    "file_path": "replace_target/Website/Default.aspx",
+    "type": "Screen",
+    "description": "メインポータルページ"
+  },
+  {
+    "file_path": "replace_target/Website/ErrorPage.aspx",
+    "type": "Screen",
+    "description": "エラー表示ページ"
+  },
+  {
+    "file_path": "replace_target/Website/KeepAlive.aspx",
+    "type": "Screen",
+    "description": "セッション維持ページ"
+  },
+  {
+    "file_path": "replace_target/Website/Portals/_default/subhost.aspx",
+    "type": "Screen",
+    "description": "サブホスト/マルチサイトポータルページ"
+  },
+  {
+    "file_path": "replace_target/Website/Install/InstallWizard.aspx",
+    "type": "Screen",
+    "description": "インストールウィザード"
+  },
+  {
+    "file_path": "replace_target/Website/Install/install.aspx",
+    "type": "Screen",
+    "description": "インストールエントリポイント"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Banners/BannerClickThrough.aspx",
+    "type": "Screen",
+    "description": "バナークリックトラッキング"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Sales/paypalipn.aspx",
+    "type": "Screen",
+    "description": "PayPal IPNコールバック"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Sales/paypalsubscription.aspx",
+    "type": "Screen",
+    "description": "PayPalサブスクリプションハンドラ"
+  },
+  {
+    "file_path": "replace_target/Modules/HTML/EditHtml.ascx",
+    "type": "Screen",
+    "description": "HTMLモジュール編集画面"
+  },
+  {
+    "file_path": "replace_target/Modules/HTML/HtmlModule.ascx",
+    "type": "Screen",
+    "description": "HTMLモジュール表示画面"
+  },
+  {
+    "file_path": "replace_target/Modules/HTML/MyWork.ascx",
+    "type": "Screen",
+    "description": "HTMLモジュール マイワーク画面"
+  },
+  {
+    "file_path": "replace_target/Modules/HTML/Settings.ascx",
+    "type": "Screen",
+    "description": "HTMLモジュール設定画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Messaging/Views/EditMessage.ascx",
+    "type": "Screen",
+    "description": "メッセージ編集画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Messaging/Views/MessageList.ascx",
+    "type": "Screen",
+    "description": "メッセージ一覧画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Messaging/Views/ViewMessage.ascx",
+    "type": "Screen",
+    "description": "メッセージ表示画面"
+  },
+  {
+    "file_path": "replace_target/Modules/RazorHost/AddScript.ascx",
+    "type": "Screen",
+    "description": "Razorスクリプト追加画面"
+  },
+  {
+    "file_path": "replace_target/Modules/RazorHost/CreateModule.ascx",
+    "type": "Screen",
+    "description": "Razorモジュール作成画面"
+  },
+  {
+    "file_path": "replace_target/Modules/RazorHost/EditScript.ascx",
+    "type": "Screen",
+    "description": "Razorスクリプト編集画面"
+  },
+  {
+    "file_path": "replace_target/Modules/RazorHost/RazorHost.ascx",
+    "type": "Screen",
+    "description": "Razorホスト表示画面"
+  },
+  {
+    "file_path": "replace_target/Modules/RazorHost/Settings.ascx",
+    "type": "Screen",
+    "description": "Razorホスト設定画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Taxonomy/Views/Controls/EditTermControl.ascx",
+    "type": "Screen",
+    "description": "タクソノミー用語編集コントロール"
+  },
+  {
+    "file_path": "replace_target/Modules/Taxonomy/Views/Controls/EditVocabularyControl.ascx",
+    "type": "Screen",
+    "description": "タクソノミー語彙編集コントロール"
+  },
+  {
+    "file_path": "replace_target/Modules/Taxonomy/Views/CreateVocabulary.ascx",
+    "type": "Screen",
+    "description": "タクソノミー語彙作成画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Taxonomy/Views/EditVocabulary.ascx",
+    "type": "Screen",
+    "description": "タクソノミー語彙編集画面"
+  },
+  {
+    "file_path": "replace_target/Modules/Taxonomy/Views/VocabularyList.ascx",
+    "type": "Screen",
+    "description": "タクソノミー語彙一覧画面"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/actionbutton.ascx",
+    "type": "Screen",
+    "description": "コンテナ アクションボタン"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/actions.ascx",
+    "type": "Screen",
+    "description": "コンテナ アクションメニュー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/dropdownactions.ascx",
+    "type": "Screen",
+    "description": "コンテナ ドロップダウンアクション"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/icon.ascx",
+    "type": "Screen",
+    "description": "コンテナ アイコン表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/linkactions.ascx",
+    "type": "Screen",
+    "description": "コンテナ リンクアクション"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/printmodule.ascx",
+    "type": "Screen",
+    "description": "コンテナ 印刷モジュール"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/solpartactions.ascx",
+    "type": "Screen",
+    "description": "コンテナ SolPartアクション"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/title.ascx",
+    "type": "Screen",
+    "description": "コンテナ タイトル表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Containers/visibility.ascx",
+    "type": "Screen",
+    "description": "コンテナ 表示/非表示切替"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/AddModule.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル モジュール追加"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/AddPage.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル ページ追加"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/iconbar.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル アイコンバー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/RibbonBar.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル リボンバー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/SwitchSite.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル サイト切替"
+  },
+  {
+    "file_path": "replace_target/Website/admin/ControlPanel/UpdatePage.ascx",
+    "type": "Screen",
+    "description": "コントロールパネル ページ更新"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Modules/export.ascx",
+    "type": "Screen",
+    "description": "モジュールエクスポート"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Modules/import.ascx",
+    "type": "Screen",
+    "description": "モジュールインポート"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Modules/ModuleLocalization.ascx",
+    "type": "Screen",
+    "description": "モジュールローカライゼーション"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Modules/modulesettings.ascx",
+    "type": "Screen",
+    "description": "モジュール設定画面"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Modules/viewsource.ascx",
+    "type": "Screen",
+    "description": "モジュール ソース表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Portal/message.ascx",
+    "type": "Screen",
+    "description": "ポータルメッセージ表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Portal/nocontent.ascx",
+    "type": "Screen",
+    "description": "コンテンツなし表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Portal/privacy.ascx",
+    "type": "Screen",
+    "description": "プライバシーポリシー表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Portal/terms.ascx",
+    "type": "Screen",
+    "description": "利用規約表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Sales/purchase.ascx",
+    "type": "Screen",
+    "description": "購入画面"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Security/accessdenied.ascx",
+    "type": "Screen",
+    "description": "アクセス拒否画面"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Security/SendPassword.ascx",
+    "type": "Screen",
+    "description": "パスワードリセットメール送信"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/banner.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト バナー表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/breadcrumb.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト パンくずリスト"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/copyright.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 著作権表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/currentdate.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 現在日付表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/dotnetnuke.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト DotNetNukeロゴ"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/help.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ヘルプリンク"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/hostname.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ホスト名表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/jQuery.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト jQuery読み込み"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/language.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 言語切替"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/LeftMenu.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 左メニュー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/links.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト リンク表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/login.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ログインリンク"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/logo.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ロゴ表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/menu.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト メニュー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/modulemessage.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト モジュールメッセージ"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/nav.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ナビゲーション"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/privacy.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト プライバシーリンク"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/search.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 検索ボックス"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/solpartmenu.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト SolPartメニュー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/Styles.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト スタイルシート"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/tags.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト タグ表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/terms.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト 利用規約リンク"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/Text.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト テキスト表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/treeviewmenu.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ツリービューメニュー"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Skins/user.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクト ユーザー情報表示"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Tabs/export.ascx",
+    "type": "Screen",
+    "description": "タブエクスポート"
+  },
+  {
+    "file_path": "replace_target/Website/admin/Tabs/import.ascx",
+    "type": "Screen",
+    "description": "タブインポート"
+  },
+  {
+    "file_path": "replace_target/Website/controls/address.ascx",
+    "type": "Screen",
+    "description": "住所入力コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/duallistcontrol.ascx",
+    "type": "Screen",
+    "description": "デュアルリスト選択コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/help.ascx",
+    "type": "Screen",
+    "description": "ヘルプ表示コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/helpbuttoncontrol.ascx",
+    "type": "Screen",
+    "description": "ヘルプボタンコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/labelcontrol.ascx",
+    "type": "Screen",
+    "description": "ラベルコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/moduleauditcontrol.ascx",
+    "type": "Screen",
+    "description": "モジュール監査コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/sectionheadcontrol.ascx",
+    "type": "Screen",
+    "description": "セクションヘッダーコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/skincontrol.ascx",
+    "type": "Screen",
+    "description": "スキン選択コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/skinthumbnailcontrol.ascx",
+    "type": "Screen",
+    "description": "スキンサムネイルコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/texteditor.ascx",
+    "type": "Screen",
+    "description": "テキストエディタコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/urlcontrol.ascx",
+    "type": "Screen",
+    "description": "URL入力/選択コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/urltrackingcontrol.ascx",
+    "type": "Screen",
+    "description": "URLトラッキングコントロール"
+  },
+  {
+    "file_path": "replace_target/Website/controls/user.ascx",
+    "type": "Screen",
+    "description": "ユーザー選択コントロール"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Analytics/GoogleAnalyticsSettings.ascx",
+    "type": "Screen",
+    "description": "Google Analytics設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Authentication/Authentication.ascx",
+    "type": "Screen",
+    "description": "認証設定管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Authentication/Login.ascx",
+    "type": "Screen",
+    "description": "ログイン画面"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Authentication/Logoff.ascx",
+    "type": "Screen",
+    "description": "ログオフ画面"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Banners/banneroptions.ascx",
+    "type": "Screen",
+    "description": "バナーオプション設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Banners/displaybanners.ascx",
+    "type": "Screen",
+    "description": "バナー表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Console/Settings.ascx",
+    "type": "Screen",
+    "description": "コンソール設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Console/ViewConsole.ascx",
+    "type": "Screen",
+    "description": "管理コンソール表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/ContentList/ContentList.ascx",
+    "type": "Screen",
+    "description": "コンテンツ一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Dashboard.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/DashboardControls.ascx",
+    "type": "Screen",
+    "description": "ダッシュボードコントロール管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Export.ascx",
+    "type": "Screen",
+    "description": "ダッシュボードエクスポート"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Database.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード データベース情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Host.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード ホスト情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Modules.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード モジュール情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Portals.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード ポータル情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Server.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード サーバー情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Dashboard/Modules/Skins.ascx",
+    "type": "Screen",
+    "description": "ダッシュボード スキン情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/BatchInstall.ascx",
+    "type": "Screen",
+    "description": "拡張機能一括インストール"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/EditExtension.ascx",
+    "type": "Screen",
+    "description": "拡張機能編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/AuthenticationEditor.ascx",
+    "type": "Screen",
+    "description": "認証エディタ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/editmodulecontrol.ascx",
+    "type": "Screen",
+    "description": "モジュールコントロール編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/EditModuleDefinition.ascx",
+    "type": "Screen",
+    "description": "モジュール定義編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/LanguagePackEditor.ascx",
+    "type": "Screen",
+    "description": "言語パック編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/ModuleEditor.ascx",
+    "type": "Screen",
+    "description": "モジュールエディタ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/SkinEditor.ascx",
+    "type": "Screen",
+    "description": "スキンエディタ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Editors/SkinObjectEditor.ascx",
+    "type": "Screen",
+    "description": "スキンオブジェクトエディタ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Extensions.ascx",
+    "type": "Screen",
+    "description": "拡張機能一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/ExtensionWizard.ascx",
+    "type": "Screen",
+    "description": "拡張機能ウィザード"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/Install.ascx",
+    "type": "Screen",
+    "description": "拡張機能インストール"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/PackageWriter.ascx",
+    "type": "Screen",
+    "description": "パッケージ作成"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/UnInstall.ascx",
+    "type": "Screen",
+    "description": "拡張機能アンインストール"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Extensions/UsageDetails.ascx",
+    "type": "Screen",
+    "description": "拡張機能使用状況詳細"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/FeedExplorer/FeedExplorer.ascx",
+    "type": "Screen",
+    "description": "フィードエクスプローラ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/FeedExplorer/FeedExplorerSettings.ascx",
+    "type": "Screen",
+    "description": "フィードエクスプローラ設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/FileManager/filemanager.ascx",
+    "type": "Screen",
+    "description": "ファイルマネージャ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/FileManager/webupload.ascx",
+    "type": "Screen",
+    "description": "Webアップロード"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/HostSettings/FriendlyUrls.ascx",
+    "type": "Screen",
+    "description": "フレンドリーURL設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/HostSettings/hostsettings.ascx",
+    "type": "Screen",
+    "description": "ホスト設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/HostSettings/RequestFilters.ascx",
+    "type": "Screen",
+    "description": "リクエストフィルタ設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/EditLanguage.ascx",
+    "type": "Screen",
+    "description": "言語編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/EnableLocalizedContent.ascx",
+    "type": "Screen",
+    "description": "ローカライズコンテンツ有効化"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/languageeditor.ascx",
+    "type": "Screen",
+    "description": "言語エディタ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/languageeditorext.ascx",
+    "type": "Screen",
+    "description": "言語エディタ拡張"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/LanguageEnabler.ascx",
+    "type": "Screen",
+    "description": "言語有効化管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/LanguagePackWriter.ascx",
+    "type": "Screen",
+    "description": "言語パック作成"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/LanguageSettings.ascx",
+    "type": "Screen",
+    "description": "言語設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/resourceverifier.ascx",
+    "type": "Screen",
+    "description": "リソース検証"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/timezoneeditor.ascx",
+    "type": "Screen",
+    "description": "タイムゾーン編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Languages/TranslationStatus.ascx",
+    "type": "Screen",
+    "description": "翻訳ステータス"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Lists/listeditor.ascx",
+    "type": "Screen",
+    "description": "リスト編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Lists/ListEntries.ascx",
+    "type": "Screen",
+    "description": "リストエントリ管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/LogViewer/editlogtypes.ascx",
+    "type": "Screen",
+    "description": "ログタイプ編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/LogViewer/logviewer.ascx",
+    "type": "Screen",
+    "description": "ログビューア"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Marketplace/Marketplace.ascx",
+    "type": "Screen",
+    "description": "マーケットプレイス"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Newsletters/Newsletter.ascx",
+    "type": "Screen",
+    "description": "ニュースレター管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Portals/PortalAliases.ascx",
+    "type": "Screen",
+    "description": "ポータルエイリアス管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Portals/portals.ascx",
+    "type": "Screen",
+    "description": "ポータル一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Portals/signup.ascx",
+    "type": "Screen",
+    "description": "ポータルサインアップ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Portals/sitesettings.ascx",
+    "type": "Screen",
+    "description": "サイト設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Portals/template.ascx",
+    "type": "Screen",
+    "description": "ポータルテンプレート管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/RecycleBin/recyclebin.ascx",
+    "type": "Screen",
+    "description": "ごみ箱"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Scheduler/editschedule.ascx",
+    "type": "Screen",
+    "description": "スケジュール編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Scheduler/viewschedule.ascx",
+    "type": "Screen",
+    "description": "スケジュール表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Scheduler/viewschedulehistory.ascx",
+    "type": "Screen",
+    "description": "スケジュール履歴表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Scheduler/viewschedulestatus.ascx",
+    "type": "Screen",
+    "description": "スケジュールステータス表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SearchAdmin/searchadmin.ascx",
+    "type": "Screen",
+    "description": "検索管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SearchInput/InputSettings.ascx",
+    "type": "Screen",
+    "description": "検索入力設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SearchInput/SearchInput.ascx",
+    "type": "Screen",
+    "description": "検索入力"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SearchResults/ResultsSettings.ascx",
+    "type": "Screen",
+    "description": "検索結果設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SearchResults/SearchResults.ascx",
+    "type": "Screen",
+    "description": "検索結果表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/EditGroups.ascx",
+    "type": "Screen",
+    "description": "グループ編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/EditProfileDefinition.ascx",
+    "type": "Screen",
+    "description": "プロフィール定義編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/editroles.ascx",
+    "type": "Screen",
+    "description": "ロール編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/manageusers.ascx",
+    "type": "Screen",
+    "description": "ユーザー管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/MemberServices.ascx",
+    "type": "Screen",
+    "description": "メンバーサービス"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/Membership.ascx",
+    "type": "Screen",
+    "description": "メンバーシップ管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/Password.ascx",
+    "type": "Screen",
+    "description": "パスワード管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/Profile.ascx",
+    "type": "Screen",
+    "description": "プロフィール管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/ProfileDefinitions.ascx",
+    "type": "Screen",
+    "description": "プロフィール定義一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/roles.ascx",
+    "type": "Screen",
+    "description": "ロール一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/securityroles.ascx",
+    "type": "Screen",
+    "description": "セキュリティロール管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/User.ascx",
+    "type": "Screen",
+    "description": "ユーザー詳細"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/users.ascx",
+    "type": "Screen",
+    "description": "ユーザー一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Security/UserSettings.ascx",
+    "type": "Screen",
+    "description": "ユーザー設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SiteLog/sitelog.ascx",
+    "type": "Screen",
+    "description": "サイトログ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Sitemap/SitemapSettings.ascx",
+    "type": "Screen",
+    "description": "サイトマップ設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SiteWizard/sitewizard.ascx",
+    "type": "Screen",
+    "description": "サイトウィザード"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SkinDesigner/Attributes.ascx",
+    "type": "Screen",
+    "description": "スキンデザイナー属性編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Skins/editskins.ascx",
+    "type": "Screen",
+    "description": "スキン編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Solutions/Solutions.ascx",
+    "type": "Screen",
+    "description": "ソリューション管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/SQL/sql.ascx",
+    "type": "Screen",
+    "description": "SQLコンソール"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Tabs/managetabs.ascx",
+    "type": "Screen",
+    "description": "タブ管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Tabs/TabLocalization.ascx",
+    "type": "Screen",
+    "description": "タブローカライゼーション"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Tabs/tabs.ascx",
+    "type": "Screen",
+    "description": "タブ一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/affiliates.ascx",
+    "type": "Screen",
+    "description": "アフィリエイト管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/banners.ascx",
+    "type": "Screen",
+    "description": "バナー管理"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/editaffiliate.ascx",
+    "type": "Screen",
+    "description": "アフィリエイト編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/editbanner.ascx",
+    "type": "Screen",
+    "description": "バナー編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/editvendors.ascx",
+    "type": "Screen",
+    "description": "ベンダー編集"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/Vendors/vendors.ascx",
+    "type": "Screen",
+    "description": "ベンダー一覧"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/ViewProfile/Settings.ascx",
+    "type": "Screen",
+    "description": "プロフィール表示設定"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/ViewProfile/ViewProfile.ascx",
+    "type": "Screen",
+    "description": "プロフィール表示"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/WhatsNew/WhatsNew.ascx",
+    "type": "Screen",
+    "description": "新着情報"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/Admin/XmlMerge/XmlMerge.ascx",
+    "type": "Screen",
+    "description": "XMLマージ"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/AuthenticationServices/DNN/Login.ascx",
+    "type": "Screen",
+    "description": "DNN認証ログイン"
+  },
+  {
+    "file_path": "replace_target/Website/DesktopModules/AuthenticationServices/DNN/Settings.ascx",
+    "type": "Screen",
+    "description": "DNN認証設定"
+  },
+  {
+    "file_path": "replace_target/Website/Install/WizardUser.ascx",
+    "type": "Screen",
+    "description": "インストールウィザード ユーザー設定"
+  },
+  {
+    "file_path": "replace_target/Website/Portals/_default/Containers/_default/No Container.ascx",
+    "type": "Screen",
+    "description": "デフォルトコンテナなし"
+  },
+  {
+    "file_path": "replace_target/Website/Portals/_default/Skins/_default/No Skin.ascx",
+    "type": "Screen",
+    "description": "デフォルトスキンなし"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Authentication/LogOffHandler.vb",
+    "type": "Handler",
+    "description": "ログオフHTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/FileSystem/FileServerHandler.vb",
+    "type": "Handler",
+    "description": "ファイル配信HTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Sitemap/SitemapHandler.vb",
+    "type": "Handler",
+    "description": "サイトマップ生成HTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Syndication/RssHandler.vb",
+    "type": "Handler",
+    "description": "RSSフィード生成HTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/UserProfile/UserProfilePageHandler.vb",
+    "type": "Handler",
+    "description": "ユーザープロフィールページHTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/UI/WebControls/CaptchaHandler.vb",
+    "type": "Handler",
+    "description": "CAPTCHA画像生成HTTPハンドラ"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Analytics/AnalyticsModule.vb",
+    "type": "HttpModule",
+    "description": "Google Analyticsインテグレーション"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Compression/CompressionModule.vb",
+    "type": "HttpModule",
+    "description": "HTTPレスポンス圧縮（GZip/Deflate）"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Exception/ExceptionModule.vb",
+    "type": "HttpModule",
+    "description": "グローバル例外処理・ログ記録"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Membership/MembershipModule.vb",
+    "type": "HttpModule",
+    "description": "メンバーシップリクエスト処理"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Personalization/PersonalizationModule.vb",
+    "type": "HttpModule",
+    "description": "ユーザーパーソナライゼーション"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/RequestFilter/RequestFilterModule.vb",
+    "type": "HttpModule",
+    "description": "リクエストフィルタリング/ブロック"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/UrlRewrite/UrlRewriteModule.vb",
+    "type": "HttpModule",
+    "description": "フレンドリーURL書き換え/ルーティング"
+  },
+  {
+    "file_path": "replace_target/Library/HttpModules/Users Online/UsersOnlineModule.vb",
+    "type": "HttpModule",
+    "description": "オンラインユーザー追跡"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Cache/PurgeCache.vb",
+    "type": "Batch",
+    "description": "汎用キャッシュパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/ModuleCache/PurgeModuleCache.vb",
+    "type": "Batch",
+    "description": "モジュール出力キャッシュパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/OutputCache/PurgeOutputCache.vb",
+    "type": "Batch",
+    "description": "ページ出力キャッシュパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Log/EventLog/PurgeLogBuffer.vb",
+    "type": "Batch",
+    "description": "イベントログバッファパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Log/EventLog/SendLogNotifications.vb",
+    "type": "Batch",
+    "description": "ログ通知メール送信"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Log/SiteLog/PurgeSiteLog.vb",
+    "type": "Batch",
+    "description": "サイトアクティビティログパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/FileSystem/SynchronizeFileSystem.vb",
+    "type": "Batch",
+    "description": "ファイルシステムとDB同期"
+  },
+  {
+    "file_path": "replace_target/Library/Entities/Users/Users Online/PurgeUsersOnline.vb",
+    "type": "Batch",
+    "description": "オンラインユーザーレコードパージ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Search/SearchEngineScheduler.vb",
+    "type": "Batch",
+    "description": "検索インデックスメンテナンス"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Messaging/Scheduler/MessagingScheduler.vb",
+    "type": "Batch",
+    "description": "メッセージ処理スケジューラ"
+  },
+  {
+    "file_path": "replace_target/Library/Services/Scheduling/PurgeScheduleHistory.vb",
+    "type": "Batch",
+    "description": "スケジュール実行履歴パージ"
+  }
+]
